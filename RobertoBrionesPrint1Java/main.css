@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: var(--altura_header);
+    background-color: rgb(202, 198, 198);
+}
+
+#logo {
+    height: 50px;
+}
+
+.btn {
+    height: 8vh;
+    width: 10vw;
+    font-size: 1.5vw;
+    background-color: rgb(202, 198, 198);
+    font: bold;
+    border-color: rgb(243, 2, 143);
+}
+
+.carousel-item {
+    height: 35vh;
+}
+
+.check-and-search {
+    height: 15vh;
+}
+
+#lupita {
+    height: 20px;
+}
+
+.card img {
+    height: 20vh;
+}
+
+.card-title {
+    height: 7vh;
+}
+
+.card-text {
+    height: 17vh;
+}
+
+.card-body2 {
+    height: 20vh;
+}
+
+footer img {
+    height: 8vh;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-sm {
+    border-radius: 0;
+}
+
+main {
+    min-height: 75vh;
+    background-color: rgb(243, 244, 245);
+}
+
+.form-check-label {
+    font-size: 70%;
+}
+
+.form-check-input {
+    border-color: rgb(243, 2, 143);
+}
+
+.form-control {
+    border-color: rgb(243, 2, 143);
+}
+
+.details {
+    min-height: 75vh;
+}
+
+.card-body {
+    height: 43vh;
+}
+
+.formulario {
+    font-size: 150%;
+}
+
+.tabla {
+    min-height: 50vh;
+    width: 80vw;
+}
+
+footer {
+    height: var(--altura_footer);
+    background-color: rgb(202, 198, 198);
+}
+
+
+@media (min-width:1024px) {
+    .form-check {
+        font-size: 150%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1023px) {
+    .form-check {
+        font-size: 90%;
+    }
+
+    .card-text {
+        height: 25vh;
+    }
+
+    td {
+        font-size: 70%;
+    }
+
+    .card {
+        height: 80vh;
+    }
+    .formulario {
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .btn {
+        width: 100%;
+        font-size: 110%;
+    }
+
+    .check-and-search {
+        height: 40vh;
+        flex-direction: column;
+    }
+
+    .form-check {
+        font-size: 80%;
+    }
+
+    .form-check-label {
+        padding-left: 1rem;
+    }
+
+    .card {
+        height: 80vh;
+    }
+
+    .bt-card {
+        height: 6vh;
+        width: 25vw;
+    }
+
+    .card img {
+        height: 35vh;
+    }
+
+    .card-body {
+        height: 35vh;
+    }
+
+    td,
+    th {
+        font-size: 60%;
+    }
+    .formulario {
+        font-size: 100%;
+    }
+}
